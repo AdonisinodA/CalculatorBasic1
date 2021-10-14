@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 66, 66);
+    color : white;
+}
+
+
+.container{
+    position: relative;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+   
+}
+
+
+#v1,#v2{
+    width: 20%;
+}
+
+.historico{
+    /* position: relative;
+    left: 100px;
+    bottom: 40px; */
+    overflow-y: scroll;
+    text-align: center;
+   
+    
+    width: 250px;
+    height: 200px;
+    border: 2px solid black;
+}
+.containerhistory{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}

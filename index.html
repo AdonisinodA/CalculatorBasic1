@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./calculatorBasic/style.css">
+</head>
+
+<body>
+    <script src="./calculatorBasic/script.js"></script>
+
+    <div class="container">
+
+        <div>
+            <div class="containerhistory">
+                <div class="historico">
+                    Histórico:
+
+                    <br>
+
+                    <h1 id="history"> </h1>
+                </div>
+            </div>
+
+            <label for="cal">Calculadora</label>
+            <input type="number" id="v1" value="">
+            <input type="number" id="v2" value="">
+            <select name="calculator" id="calculator">
+
+                <option id="soma" value="+">Adicão</option>
+                <option id="subtração" value="-">Subtração</option>
+                <option id="divisao" value="/">Divisao</option>
+                <option id="multiplicacao" value="*">Multiplicação</option>
+
+            </select>
+            <br><br>
+            <input type="button" id="calcular" value="Calcular" onclick="calcular()">
+            <br>
+            <h1 style="display: inline-block;">Resultado:</h1>
+            <h1 style="display: inline-block;" id="result"></h1>
+        </div>
+    </div>
+</body>
+
+</html>
